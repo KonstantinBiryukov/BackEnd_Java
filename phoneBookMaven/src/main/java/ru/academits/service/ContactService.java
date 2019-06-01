@@ -57,11 +57,15 @@ public class ContactService {
         return contactValidation;
     }
 
-    public void deleteContact(int contactNumber) {
-        contactDao.delete(contactNumber);
+    public void deleteContact(int contactId) {
+        contactDao.delete(contactId);
     }
 
     public List<Contact> getAllContacts() {
         return contactDao.getAllContacts();
+    }
+
+    public List<Contact> filterContacts(String queryString) {
+        return contactDao.filterContacts(queryString);
     }
 }

@@ -21,7 +21,7 @@
     <div class="filter-container">
         <label class="mr-1">
             Введите текст:
-            <input type="text" v-on:search="search" class="form-control input-sm"/>
+            <input type="text" v-model="usedSearchTerm" class="form-control input-sm"/>
         </label>
         <button class="btn btn-primary" @click="search">Отфильтровать</button>
         <button class="btn btn-primary" @click="reset">Сбросить фильтр</button>

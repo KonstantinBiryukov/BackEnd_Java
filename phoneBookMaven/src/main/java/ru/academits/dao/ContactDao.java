@@ -5,6 +5,7 @@ import ru.academits.model.Contact;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
 /**
  * Created by Anna on 17.06.2017.
@@ -35,7 +36,18 @@ public class ContactDao {
         contactList.add(contact);
     }
 
-    public void delete(int contactNumber) {
-        contactList.remove(contactNumber - 1);
+    public void delete(int contactId) {
+        Contact contactForRemoval = contactList.stream()
+                .filter(contact -> contact.getId() == contactId)
+                .findFirst().get();
+        contactList.remove(contactForRemoval);
+    }
+
+    public List<Contact> filterContacts(String queryString) {
+        return contactList.stream()
+                .filter(contact -> contact.getFirstName().toUpperCase().contains(queryString)
+                        || contact.getLastName().toUpperCase().contains(queryString)
+                        || contact.getPhone().toUpperCase().contains(queryString))
+                .collect(Collectors.toList());
     }
 }

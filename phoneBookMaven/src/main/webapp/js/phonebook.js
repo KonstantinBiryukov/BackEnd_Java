@@ -94,19 +94,18 @@ new Vue({
                 self.rows = self.convertContactList(contactListFormServer);
             });
         },
-        search: function (searchField) {
+        search: function () {
             var self = this;
-            this.usedSearchTerm = searchField;
             $.ajax({
-                type: "POST",
+                type: "GET",
                 url: "/phonebook/search",
-                data: JSON.stringify(searchField),
+                processData: false,
+                data: JSON.stringify(self.usedSearchTerm),
                 contentType: "application/json"
             }).done(function (response) {
                 var contactListFormServer = JSON.parse(response);
                 self.rows = self.convertContactList(contactListFormServer);
             });
-            this.loadData();
         },
         reset: function () {
             this.usedSearchTerm = "";
