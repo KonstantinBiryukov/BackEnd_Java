@@ -21,11 +21,8 @@ public class SearchContactsServlet extends HttpServlet {
         try {
             // Browser sends the url encoded, in format %22queryString%22 (for Chrome),
             // decoding is applied to turn %22 into a quote
-            String queryString = URLDecoder.decode(req.getQueryString(), "UTF-8");
-            // trim quotes from queryString and turn query's letters into UpperCase
-            // "queryString" --> QUERYSTRING
-            String clearQuery = queryString.substring(1, queryString.length() - 1).toUpperCase();
-            List<Contact> contactList = phoneBookService.filterContacts(clearQuery);
+            String queryString = URLDecoder.decode(req.getQueryString(), "UTF-8").toUpperCase();
+            List<Contact> contactList = phoneBookService.filterContacts(queryString);
 
             String contactListJson = contactConverter.convertToJson(contactList);
             resp.getOutputStream().write(contactListJson.getBytes(Charset.forName("UTF-8")));

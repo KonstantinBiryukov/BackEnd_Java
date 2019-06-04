@@ -100,7 +100,7 @@ new Vue({
                 type: "GET",
                 url: "/phonebook/search",
                 processData: false,
-                data: JSON.stringify(self.usedSearchTerm),
+                data: self.usedSearchTerm,
                 contentType: "application/json"
             }).done(function (response) {
                 var contactListFormServer = JSON.parse(response);
