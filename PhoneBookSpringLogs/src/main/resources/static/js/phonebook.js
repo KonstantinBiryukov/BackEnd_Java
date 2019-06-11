@@ -97,12 +97,10 @@ new Vue({
             $.ajax({
                 type: "GET",
                 url: "/phoneBook/rpc/api/v1/search",
-                processData: false,
-                data: self.usedSearchTerm,
+                data: {query: self.usedSearchTerm},
                 contentType: "application/json"
             }).done(function (response) {
-                var contactListFormServer = JSON.parse(response);
-                self.rows = self.convertContactList(contactListFormServer);
+                self.rows = self.convertContactList(response);
             });
         },
         reset: function () {

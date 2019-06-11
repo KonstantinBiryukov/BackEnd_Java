@@ -12,7 +12,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
-//TODO: Logging - Error/Different files/Date(DatePattern)/API logging
 @Controller
 @RequestMapping("/phoneBook/rpc/api/v1")
 public class PhoneBookController {
@@ -45,12 +44,8 @@ public class PhoneBookController {
 
     @RequestMapping(value = "search", method = RequestMethod.GET)
     @ResponseBody
-    public List<Contact> searchContacts(@RequestBody(required = false) String query) {
-//        System.out.println(contact);
-//         Browser sends the url encoded, in format %22queryString%22 (for Chrome),
-//         decoding is applied to turn %22 into a quote
-//        String queryString = URLDecoder.decode(query.getQueryString(), "UTF-8").toUpperCase();
-
+    public List<Contact> searchContacts(@RequestParam(required = false, name = "query") String query) {
+        logger.info("search is initialized, query string is \"" + query + "\"");
         return contactService.filterContacts(query);
     }
 
@@ -58,5 +53,3 @@ public class PhoneBookController {
         return ToStringBuilder.reflectionToString(contact);
     }
 }
-
-
