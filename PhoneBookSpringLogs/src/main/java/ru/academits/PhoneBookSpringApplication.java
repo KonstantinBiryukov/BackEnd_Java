@@ -6,8 +6,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class PhonebookSpringApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(PhonebookSpringApplication.class, args);
-	}
+public class PhoneBookSpringApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(PhoneBookSpringApplication.class, args);
+    }
 }
