@@ -1,0 +1,23 @@
+@startuml
+actor User
+boundary Browser
+control Controller
+participant Service
+entity SpecificDao
+entity GenericDao
+database Database
+
+User -> Browser : connection
+Browser -> Controller : request API
+Controller -> Service: init service method
+Service -> SpecificDao :
+SpecificDao ->  GenericDao:
+GenericDao -> Database: DB request
+
+Database -->  GenericDao
+GenericDao --> SpecificDao
+SpecificDao --> Service
+Service --> Controller:
+Controller --> Browser: response
+Browser --> User: fetch data
+@enduml
