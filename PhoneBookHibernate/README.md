@@ -1,6 +1,6 @@
 # README #
 
-Это проект - телефонная книга, реализованная на следующих технологиях
+PHONE_BOOK
 
 - Клиентская часть: HTML, CSS, JS, Vue.js, Bootstrap
 - Серверная часть: spring-framework
