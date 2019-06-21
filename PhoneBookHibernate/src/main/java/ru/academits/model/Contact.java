@@ -27,8 +27,8 @@ public class Contact {
     @Column(name = "is_removed")
     private boolean isRemoved;
 
-    @OneToMany(mappedBy = "contacts")
-    private List<Contact> contacts;
+//    @OneToMany(mappedBy = "contacts")
+//    private List<Contact> contacts;
 
     public int getId() {
         return id;

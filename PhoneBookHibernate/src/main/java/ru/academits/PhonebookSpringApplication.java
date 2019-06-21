@@ -14,10 +14,12 @@ import ru.academits.model.Contact;
 @EnableScheduling
 public class PhonebookSpringApplication {
     public static void main(String[] args) {
-        ContactDto contactDto = new ContactDto();
-        Contact contactEntity = new Contact();
-        System.out.println(contactDto.getFirstName());
-        BeanUtils.copyProperties(contactDto, contactEntity);
+//        ContactDto contactDto = new ContactDto();
+//        Contact contactEntity = new Contact();
+//
+//        BeanUtils.copyProperties(contactDto, contactEntity);
+//        System.out.println(contactDto.getFirstName());
+//        System.out.println(contactEntity.getFirstName());
 
         SpringApplication.run(PhonebookSpringApplication.class, args);
     }
