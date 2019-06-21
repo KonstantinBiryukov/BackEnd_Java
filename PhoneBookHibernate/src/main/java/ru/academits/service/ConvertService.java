@@ -31,8 +31,14 @@ public class ConvertService {
         Contact contact = contactToContactDtoConvert.toEntity(contactDto);
         session.saveOrUpdate(contact);
 
-        logger.info("ContactDto: " + toString(contactDto) + " is converted");
+        logger.info("ContactDto: " + toString(contactDto) + " is converted to Contact Entity");
         return contact;
+    }
+
+    public ContactDto convertContactDto(Contact contact) {
+        ContactDto contactDto = contactToContactDtoConvert.toDto(contact);
+        logger.info("Contact: " + toString(contactDto) + " is converted to Dto");
+        return contactToContactDtoConvert.toDto(contact);
     }
 
     public Call convertCall(CallDto callDto) {
@@ -40,10 +46,15 @@ public class ConvertService {
         Call call = callToCallDtoConvert.toEntity(callDto);
         session.saveOrUpdate(call);
 
-        logger.info("CallDto: " + toString(callDto) + " is converted");
+        logger.info("CallDto: " + toString(callDto) + " is converted to Call Entity");
         return call;
     }
 
+    public CallDto convertCallDto(Call call) {
+        CallDto callDto = callToCallDtoConvert.toDto(call);
+        logger.info("Call: " + toString(callDto) + " is converted to Dto");
+        return callToCallDtoConvert.toDto(call);
+    }
 
     public String toString(Object object) {
         return ToStringBuilder.reflectionToString(object);

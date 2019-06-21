@@ -46,11 +46,13 @@ public class PhoneBookController {
     @Transactional
     @RequestMapping(value = "addContact", method = RequestMethod.POST)
     @ResponseBody
-    public ContactValidation addContact(@RequestBody ContactDto contactDto) {
+    public ContactDto addContact(@RequestBody ContactDto contactDto) {
         Contact contact = convertService.convertContact(contactDto);
+
+        contactService.addContact(contact);
         logger.info("Contact (Entity): " + toString(contact) + " is added");
 
-        return contactService.addContact(contact);
+        return convertService.convertContactDto(contact);
     }
 
     @Transactional
@@ -61,6 +63,8 @@ public class PhoneBookController {
         contactService.deleteContact(contact.getId());
 
         logger.info("Contact (Entity): " + toString(contact) + " is removed");
+
+        convertService.convertContactDto(contact);
         return contactService.getAllContacts();
     }
 
@@ -74,10 +78,12 @@ public class PhoneBookController {
     @Transactional
     @RequestMapping(value = "addCall", method = RequestMethod.POST)
     @ResponseBody
-    public void addCall(@RequestBody CallDto callDto) {
+    public CallDto addCall(@RequestBody CallDto callDto) {
         Call call = convertService.convertCall(callDto);
         callService.addCall(call);
         logger.info("Call (Entity): " + toString(call) + " is added");
+
+        return convertService.convertCallDto(call);
     }
 
     @RequestMapping(value = "getAllCalls", method = RequestMethod.GET)
