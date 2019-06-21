@@ -26,8 +26,6 @@ public class PhoneBookController {
     private final ContactService contactService;
     private final CallService callService;
     private final ConvertService convertService;
-//    @Autowired
-//    private ConversionService convertService;
 
     @Autowired
     public PhoneBookController(ContactService contactService, CallService callService, ConvertService conversionService) {
