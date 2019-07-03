@@ -1,0 +1,600 @@
+2019-07-03 14:37:10.500  INFO 47158 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47158 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 14:37:10.505 DEBUG 47158 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 14:37:10.506  INFO 47158 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 14:37:12.242  INFO 47158 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1701 ms
+2019-07-03 14:37:14.052  INFO 47158 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.883 seconds (JVM running for 4.654)
+2019-07-03 14:37:14.339  INFO 47158 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 14:37:14.348  INFO 47158 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-07-03 14:37:19.278  INFO 47158 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:37:23.781  INFO 47158 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@2d823ab0[id=0,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is converted to Contact Entity
+2019-07-03 14:37:23.796  INFO 47158 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@aa9343d[id=1,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is added
+2019-07-03 14:37:23.796  INFO 47158 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@aa9343d[id=1,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is converted to Dto
+2019-07-03 14:37:23.809  INFO 47158 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:38:04.257  INFO 47177 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47177 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 14:38:04.261 DEBUG 47177 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 14:38:04.264  INFO 47177 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 14:38:06.002  INFO 47177 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1626 ms
+2019-07-03 14:38:07.848  INFO 47177 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 4.128 seconds (JVM running for 4.917)
+2019-07-03 14:38:07.983  INFO 47177 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 14:38:07.993  INFO 47177 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-07-03 14:38:11.049  INFO 47177 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:38:13.886  INFO 47177 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@21bfb4d[id=0,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is converted to Contact Entity
+2019-07-03 14:38:33.511  INFO 47177 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@33988add[id=1,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is added
+2019-07-03 14:38:34.581  INFO 47177 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@33988add[id=1,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is converted to Dto
+2019-07-03 14:38:35.529  INFO 47177 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:38:47.290  INFO 47182 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47182 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 14:38:47.292 DEBUG 47182 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 14:38:47.293  INFO 47182 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 14:38:48.810  INFO 47182 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1486 ms
+2019-07-03 14:38:50.457  INFO 47182 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.477 seconds (JVM running for 4.086)
+2019-07-03 14:38:50.605  INFO 47182 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 14:38:50.612  INFO 47182 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-07-03 14:41:17.600  INFO 47198 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47198 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 14:41:17.602 DEBUG 47198 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 14:41:17.602  INFO 47198 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 14:41:18.994  INFO 47198 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1362 ms
+2019-07-03 14:41:20.781  INFO 47198 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.525 seconds (JVM running for 4.347)
+2019-07-03 14:41:21.225  INFO 47198 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 14:41:21.242  INFO 47198 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-07-03 14:41:36.816  INFO 47198 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:41:38.378  INFO 47198 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@d7e4968[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 14:41:38.493  INFO 47198 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@1d69c294[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 14:41:38.493  INFO 47198 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@1d69c294[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 14:41:38.512  INFO 47198 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:41:39.678  INFO 47198 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@c9f8322[id=0,callDate=2019-07-03T07:41:39.664Z,callPhone=4] is converted to Call Entity
+2019-07-03 14:41:39.713  INFO 47198 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@6fe4ad27[id=2,callDate=2019-07-03T07:41:39.664Z,callPhone=4,contact=<null>] is added
+2019-07-03 14:41:39.713  INFO 47198 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@c9f8322[id=0,callDate=2019-07-03T07:41:39.664Z,callPhone=4] is converted to Dto
+2019-07-03 14:41:39.725  INFO 47198 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 14:41:40.551  INFO 47198 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@5eb3b17f[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 14:41:40.559  INFO 47198 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@78086e2[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is removed
+2019-07-03 14:41:40.559  INFO 47198 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : Contact: ru.academits.dto.ContactDto@5eb3b17f[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 14:41:40.635  INFO 47198 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:41:41.699  INFO 47198 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:41:42.637  INFO 47198 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 14:41:43.326  INFO 47198 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:15:35.873  INFO 47198 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:25:20.335  INFO 47427 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47427 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 15:25:20.337 DEBUG 47427 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 15:25:20.338  INFO 47427 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 15:25:21.717  INFO 47427 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1346 ms
+2019-07-03 15:25:23.308  INFO 47427 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.271 seconds (JVM running for 3.883)
+2019-07-03 15:25:23.699  INFO 47427 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 15:25:23.708  INFO 47427 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-07-03 15:25:25.879  INFO 47427 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:25:32.375  INFO 47427 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@348ad0c5[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:25:32.484  INFO 47427 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@2a42d20a[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 15:25:32.485  INFO 47427 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@2a42d20a[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 15:25:32.508  INFO 47427 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:25:37.207  INFO 47427 --- [http-nio-8080-exec-2] ru.academits.controller.ErrorController  : error happened
+
+java.lang.IndexOutOfBoundsException: Index 1 out-of-bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248) ~[na:na]
+	at java.base/java.util.Objects.checkIndex(Objects.java:372) ~[na:na]
+	at java.base/java.util.ArrayList.get(ArrayList.java:440) ~[na:na]
+	at ru.academits.service.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:27) ~[classes/:na]
+	at ru.academits.controller.PhoneBookController.addCall(PhoneBookController.java:95) ~[classes/:na]
+	at ru.academits.controller.PhoneBookController$$FastClassBySpringCGLIB$$b450c43f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at ru.academits.controller.PhoneBookController$$EnhancerBySpringCGLIB$$dd6036e.addCall(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.lang.Thread.run(Thread.java:844) [na:na]
+
+2019-07-03 15:25:37.214  INFO 47427 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:25:49.231  INFO 47431 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47431 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 15:25:49.233 DEBUG 47431 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 15:25:49.233  INFO 47431 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 15:25:50.573  INFO 47431 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1311 ms
+2019-07-03 15:25:52.140  INFO 47431 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.188 seconds (JVM running for 3.772)
+2019-07-03 15:25:52.611  INFO 47431 --- [RMI TCP Connection(1)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 15:25:52.619  INFO 47431 --- [RMI TCP Connection(1)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-03 15:25:53.503  INFO 47431 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:25:54.286  INFO 47431 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:25:55.740  INFO 47431 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@4da78b4f[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:25:55.815  INFO 47431 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@3b2b390a[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 15:25:55.815  INFO 47431 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@3b2b390a[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 15:25:55.839  INFO 47431 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:25:56.953  INFO 47431 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@2e6603ed[id=0,callDate=2019-07-03T08:25:56.939Z,callPhone=4] is converted to Call Entity
+2019-07-03 15:25:57.039  INFO 47431 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@34cfdd3d[id=2,callDate=2019-07-03T08:25:56.939Z,callPhone=4,contact=ru.academits.model.Contact@2fcb565a] is added
+2019-07-03 15:25:57.039  INFO 47431 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@2e6603ed[id=0,callDate=2019-07-03T08:25:56.939Z,callPhone=4] is converted to Dto
+2019-07-03 15:25:57.051  INFO 47431 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:26:12.429  INFO 47431 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@5efe6a55[id=0,firstName=asd,lastName=asd,phone=99999,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:26:12.523  INFO 47431 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@854f237[id=3,firstName=asd,lastName=asd,phone=99999,isRemoved=false] is added
+2019-07-03 15:26:12.523  INFO 47431 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@854f237[id=3,firstName=asd,lastName=asd,phone=99999,isRemoved=false] is converted to Dto
+2019-07-03 15:26:12.533  INFO 47431 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:26:14.501  INFO 47431 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@da0331e[id=0,callDate=2019-07-03T08:26:14.489Z,callPhone=99999] is converted to Call Entity
+2019-07-03 15:26:14.569  INFO 47431 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@767fac31[id=4,callDate=2019-07-03T08:26:14.489Z,callPhone=99999,contact=ru.academits.model.Contact@3cd4bd6e] is added
+2019-07-03 15:26:14.570  INFO 47431 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@da0331e[id=0,callDate=2019-07-03T08:26:14.489Z,callPhone=99999] is converted to Dto
+2019-07-03 15:26:14.581  INFO 47431 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:26:15.243  INFO 47431 --- [http-nio-8080-exec-9] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@4e9b8544[id=0,callDate=2019-07-03T08:26:15.233Z,callPhone=99999] is converted to Call Entity
+2019-07-03 15:26:15.285  INFO 47431 --- [http-nio-8080-exec-9] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@11ff25f3[id=5,callDate=2019-07-03T08:26:15.233Z,callPhone=99999,contact=ru.academits.model.Contact@6920c5dd] is added
+2019-07-03 15:26:15.285  INFO 47431 --- [http-nio-8080-exec-9] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@4e9b8544[id=0,callDate=2019-07-03T08:26:15.233Z,callPhone=99999] is converted to Dto
+2019-07-03 15:26:15.296  INFO 47431 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:26:15.709  INFO 47431 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@6807bd2b[id=0,callDate=2019-07-03T08:26:15.696Z,callPhone=4] is converted to Call Entity
+2019-07-03 15:26:15.729  INFO 47431 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@544d8a24[id=6,callDate=2019-07-03T08:26:15.696Z,callPhone=4,contact=ru.academits.model.Contact@7efbd116] is added
+2019-07-03 15:26:15.729  INFO 47431 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@6807bd2b[id=0,callDate=2019-07-03T08:26:15.696Z,callPhone=4] is converted to Dto
+2019-07-03 15:26:15.739  INFO 47431 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:32:33.623  INFO 47478 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47478 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 15:32:33.625 DEBUG 47478 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 15:32:33.625  INFO 47478 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 15:32:35.030  INFO 47478 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1375 ms
+2019-07-03 15:32:36.650  INFO 47478 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.303 seconds (JVM running for 3.878)
+2019-07-03 15:32:37.028  INFO 47478 --- [RMI TCP Connection(5)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 15:32:37.036  INFO 47478 --- [RMI TCP Connection(5)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-03 15:32:38.992  INFO 47478 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:32:40.560  INFO 47478 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@6be92e22[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:32:40.615  INFO 47478 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@3b21535e[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 15:32:40.616  INFO 47478 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@3b21535e[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 15:32:40.635  INFO 47478 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:32:41.788  INFO 47478 --- [http-nio-8080-exec-2] ru.academits.controller.ErrorController  : error happened
+
+org.springframework.orm.hibernate5.HibernateSystemException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long; nested exception is org.hibernate.TypeMismatchException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.springframework.orm.hibernate5.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:302) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.orm.hibernate5.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:102) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.orm.hibernate5.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:73) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at ru.academits.dao.ContactDaoImpl$$EnhancerBySpringCGLIB$$5ec1ff19.findById(<generated>) ~[classes/:na]
+	at ru.academits.service.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:28) ~[classes/:na]
+	at ru.academits.controller.PhoneBookController.addCall(PhoneBookController.java:95) ~[classes/:na]
+	at ru.academits.controller.PhoneBookController$$FastClassBySpringCGLIB$$b450c43f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at ru.academits.controller.PhoneBookController$$EnhancerBySpringCGLIB$$42109d52.addCall(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.lang.Thread.run(Thread.java:844) [na:na]
+Caused by: org.hibernate.TypeMismatchException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.hibernate.event.internal.DefaultLoadEventListener.checkIdClass(DefaultLoadEventListener.java:166) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:86) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1230) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:203) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2787) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2761) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1066) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at ru.academits.dao.GenericDaoImpl.getById(GenericDaoImpl.java:40) ~[classes/:na]
+	at ru.academits.dao.ContactDaoImpl.findById(ContactDaoImpl.java:45) ~[classes/:na]
+	at ru.academits.dao.ContactDaoImpl$$FastClassBySpringCGLIB$$feff24cc.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	... 80 common frames omitted
+
+2019-07-03 15:32:41.797  INFO 47478 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:33:09.786  INFO 47482 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47482 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 15:33:09.788 DEBUG 47482 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 15:33:09.789  INFO 47482 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 15:33:11.119  INFO 47482 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1299 ms
+2019-07-03 15:33:12.603  INFO 47482 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.09 seconds (JVM running for 3.671)
+2019-07-03 15:33:12.653  INFO 47482 --- [RMI TCP Connection(3)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 15:33:12.662  INFO 47482 --- [RMI TCP Connection(3)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-03 15:33:18.660  INFO 47482 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:33:20.118  INFO 47482 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@616fb6b7[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:33:20.231  INFO 47482 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@f0d416e[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 15:33:20.231  INFO 47482 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@f0d416e[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 15:33:20.252  INFO 47482 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:33:21.114  INFO 47482 --- [http-nio-8080-exec-4] ru.academits.controller.ErrorController  : error happened
+
+org.springframework.orm.hibernate5.HibernateSystemException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long; nested exception is org.hibernate.TypeMismatchException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.springframework.orm.hibernate5.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:302) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.orm.hibernate5.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:102) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.orm.hibernate5.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:73) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at ru.academits.dao.ContactDaoImpl$$EnhancerBySpringCGLIB$$2bef6c9f.findById(<generated>) ~[classes/:na]
+	at ru.academits.service.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:28) ~[classes/:na]
+	at ru.academits.controller.PhoneBookController.addCall(PhoneBookController.java:95) ~[classes/:na]
+	at ru.academits.controller.PhoneBookController$$FastClassBySpringCGLIB$$b450c43f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at ru.academits.controller.PhoneBookController$$EnhancerBySpringCGLIB$$f3e0ad8.addCall(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.lang.Thread.run(Thread.java:844) [na:na]
+Caused by: org.hibernate.TypeMismatchException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.hibernate.event.internal.DefaultLoadEventListener.checkIdClass(DefaultLoadEventListener.java:166) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:86) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1230) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:203) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2787) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2761) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1066) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at ru.academits.dao.GenericDaoImpl.getById(GenericDaoImpl.java:40) ~[classes/:na]
+	at ru.academits.dao.ContactDaoImpl.findById(ContactDaoImpl.java:45) ~[classes/:na]
+	at ru.academits.dao.ContactDaoImpl$$FastClassBySpringCGLIB$$feff24cc.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	... 80 common frames omitted
+
+2019-07-03 15:33:21.122  INFO 47482 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:35:07.359  INFO 47501 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47501 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 15:35:07.362 DEBUG 47501 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 15:35:07.363  INFO 47501 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 15:35:08.881  INFO 47501 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1487 ms
+2019-07-03 15:35:10.807  INFO 47501 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.729 seconds (JVM running for 4.332)
+2019-07-03 15:35:11.250  INFO 47501 --- [RMI TCP Connection(4)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 15:35:11.258  INFO 47501 --- [RMI TCP Connection(4)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-03 15:35:18.487  INFO 47501 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:35:19.650  INFO 47501 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@771aed87[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:35:19.766  INFO 47501 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@2a5225d3[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 15:35:19.766  INFO 47501 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@2a5225d3[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 15:35:19.787  INFO 47501 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:35:20.443  INFO 47501 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@4297e7ce[id=0,callDate=2019-07-03T08:35:20.427Z,callPhone=4] is converted to Call Entity
+2019-07-03 15:35:20.469  INFO 47501 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@1b5d56a7[id=2,callDate=2019-07-03T08:35:20.427Z,callPhone=4,contact=<null>] is added
+2019-07-03 15:35:20.469  INFO 47501 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@4297e7ce[id=0,callDate=2019-07-03T08:35:20.427Z,callPhone=4] is converted to Dto
+2019-07-03 15:35:20.481  INFO 47501 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:35:31.215  INFO 47501 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@79d4959f[id=0,firstName=5,lastName=5,phone=5,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:35:31.231  INFO 47501 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@5f5adb5b[id=3,firstName=5,lastName=5,phone=5,isRemoved=false] is added
+2019-07-03 15:35:31.232  INFO 47501 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@5f5adb5b[id=3,firstName=5,lastName=5,phone=5,isRemoved=false] is converted to Dto
+2019-07-03 15:35:31.242  INFO 47501 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:35:32.533  INFO 47501 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@63498474[id=0,callDate=2019-07-03T08:35:32.523Z,callPhone=5] is converted to Call Entity
+2019-07-03 15:35:32.558  INFO 47501 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@67071b94[id=4,callDate=2019-07-03T08:35:32.523Z,callPhone=5,contact=<null>] is added
+2019-07-03 15:35:32.558  INFO 47501 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@63498474[id=0,callDate=2019-07-03T08:35:32.523Z,callPhone=5] is converted to Dto
+2019-07-03 15:35:32.567  INFO 47501 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:36:45.102  INFO 47513 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47513 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 15:36:45.104 DEBUG 47513 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 15:36:45.104  INFO 47513 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 15:36:46.550  INFO 47513 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1416 ms
+2019-07-03 15:36:48.315  INFO 47513 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.484 seconds (JVM running for 4.071)
+2019-07-03 15:36:48.472  INFO 47513 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 15:36:48.480  INFO 47513 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-03 15:36:49.126  INFO 47513 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:36:50.895  INFO 47513 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@78295de5[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:36:50.994  INFO 47513 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@627531e7[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 15:36:50.995  INFO 47513 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@627531e7[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 15:36:51.015  INFO 47513 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:36:52.057  INFO 47513 --- [http-nio-8080-exec-4] ru.academits.controller.ErrorController  : error happened
+
+org.springframework.orm.hibernate5.HibernateSystemException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long; nested exception is org.hibernate.TypeMismatchException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.springframework.orm.hibernate5.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:302) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.orm.hibernate5.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:102) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.orm.hibernate5.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:73) ~[spring-orm-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at ru.academits.dao.ContactDaoImpl$$EnhancerBySpringCGLIB$$a61b9.findById(<generated>) ~[classes/:na]
+	at ru.academits.service.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:29) ~[classes/:na]
+	at ru.academits.controller.PhoneBookController.addCall(PhoneBookController.java:95) ~[classes/:na]
+	at ru.academits.controller.PhoneBookController$$FastClassBySpringCGLIB$$b450c43f.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at ru.academits.controller.PhoneBookController$$EnhancerBySpringCGLIB$$e358fff2.addCall(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106) [spring-boot-actuator-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135) [na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.base/java.lang.Thread.run(Thread.java:844) [na:na]
+Caused by: org.hibernate.TypeMismatchException: Provided id of the wrong type for class ru.academits.model.Contact. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.hibernate.event.internal.DefaultLoadEventListener.checkIdClass(DefaultLoadEventListener.java:166) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:86) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1230) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:203) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2787) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2761) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1066) ~[hibernate-core-5.2.6.Final.jar:5.2.6.Final]
+	at ru.academits.dao.GenericDaoImpl.getById(GenericDaoImpl.java:40) ~[classes/:na]
+	at ru.academits.dao.ContactDaoImpl.findById(ContactDaoImpl.java:45) ~[classes/:na]
+	at ru.academits.dao.ContactDaoImpl$$FastClassBySpringCGLIB$$feff24cc.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	... 80 common frames omitted
+
+2019-07-03 15:36:52.064  INFO 47513 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:38:23.407  INFO 47562 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47562 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 15:38:23.408 DEBUG 47562 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 15:38:23.409  INFO 47562 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 15:38:24.861  INFO 47562 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1423 ms
+2019-07-03 15:38:26.479  INFO 47562 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.348 seconds (JVM running for 3.943)
+2019-07-03 15:38:26.776  INFO 47562 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 15:38:26.784  INFO 47562 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-03 15:38:28.957  INFO 47562 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:38:30.244  INFO 47562 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@1c4697b5[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:38:30.310  INFO 47562 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@5f0928a9[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 15:38:30.311  INFO 47562 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@5f0928a9[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 15:38:30.333  INFO 47562 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:38:31.162  INFO 47562 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@1fd46e77[id=0,callDate=2019-07-03T08:38:31.153Z,callPhone=4] is converted to Call Entity
+2019-07-03 15:38:31.234  INFO 47562 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@4e4a734[id=2,callDate=2019-07-03T08:38:31.153Z,callPhone=4,contact=ru.academits.model.Contact@aadb37] is added
+2019-07-03 15:38:31.235  INFO 47562 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@1fd46e77[id=0,callDate=2019-07-03T08:38:31.153Z,callPhone=4] is converted to Dto
+2019-07-03 15:38:31.246  INFO 47562 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:38:31.641  INFO 47562 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@45eeff05[id=0,callDate=2019-07-03T08:38:31.631Z,callPhone=4] is converted to Call Entity
+2019-07-03 15:38:31.679  INFO 47562 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@7c31d501[id=3,callDate=2019-07-03T08:38:31.631Z,callPhone=4,contact=ru.academits.model.Contact@6880710f] is added
+2019-07-03 15:38:31.679  INFO 47562 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@45eeff05[id=0,callDate=2019-07-03T08:38:31.631Z,callPhone=4] is converted to Dto
+2019-07-03 15:38:31.691  INFO 47562 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:38:31.772  INFO 47562 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@68fc574f[id=0,callDate=2019-07-03T08:38:31.761Z,callPhone=4] is converted to Call Entity
+2019-07-03 15:38:31.781  INFO 47562 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@5b0b80ca[id=4,callDate=2019-07-03T08:38:31.761Z,callPhone=4,contact=ru.academits.model.Contact@36a04808] is added
+2019-07-03 15:38:31.781  INFO 47562 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@68fc574f[id=0,callDate=2019-07-03T08:38:31.761Z,callPhone=4] is converted to Dto
+2019-07-03 15:38:31.789  INFO 47562 --- [http-nio-8080-exec-9] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:38:38.341  INFO 47562 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@38766e4c[id=0,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is converted to Contact Entity
+2019-07-03 15:38:38.427  INFO 47562 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@63b28f5d[id=5,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is added
+2019-07-03 15:38:38.428  INFO 47562 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@63b28f5d[id=5,firstName=Константин,lastName=Бирюков,phone=+79529042238,isRemoved=false] is converted to Dto
+2019-07-03 15:38:38.437  INFO 47562 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 15:38:40.182  INFO 47562 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@7c8d1b06[id=0,callDate=2019-07-03T08:38:40.173Z,callPhone=+79529042238] is converted to Call Entity
+2019-07-03 15:38:40.261  INFO 47562 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@49a2f400[id=6,callDate=2019-07-03T08:38:40.173Z,callPhone=+79529042238,contact=ru.academits.model.Contact@613b635b] is added
+2019-07-03 15:38:40.261  INFO 47562 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@7c8d1b06[id=0,callDate=2019-07-03T08:38:40.173Z,callPhone=+79529042238] is converted to Dto
+2019-07-03 15:38:40.273  INFO 47562 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 15:44:50.386  INFO 47607 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47607 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 15:44:50.388 DEBUG 47607 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 15:44:50.389  INFO 47607 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default

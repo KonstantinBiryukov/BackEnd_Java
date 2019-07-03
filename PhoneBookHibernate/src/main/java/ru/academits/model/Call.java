@@ -19,7 +19,6 @@ public class Call {
     private String callPhone;
 
     @ManyToOne
-    @JoinColumn(name = "contact_id")
     private Contact contact;
 
     public int getId() {
@@ -53,4 +52,5 @@ public class Call {
     public void setContact(Contact contact) {
         this.contact = contact;
     }
+
 }

@@ -9,12 +9,9 @@ import ru.academits.dto.CallDto;
 import ru.academits.dto.ContactDto;
 import ru.academits.model.Call;
 import ru.academits.model.Contact;
-import ru.academits.model.ContactValidation;
-import ru.academits.service.CallService;
-import ru.academits.service.ContactService;
+import ru.academits.service.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.academits.service.ConvertService;
 
 import java.util.List;
 
@@ -25,14 +22,25 @@ public class PhoneBookController {
 
     private final ContactService contactService;
     private final CallService callService;
-    private final ConvertService convertService;
+    private final ContactToContactDtoConvert contactToContactDtoConvert;
+    private final CallToCallDtoConvert callToCallDtoConvert;
+    private final ContactToContactEntityConvert contactToContactEntityConvert;
+    private final CallToCallEntityConvert callToCallEntityConvert;
 
     @Autowired
-    public PhoneBookController(ContactService contactService, CallService callService, ConvertService conversionService) {
+    public PhoneBookController(ContactService contactService, CallService callService,
+                               ContactToContactDtoConvert contactToContactDtoConvert,
+                               CallToCallDtoConvert callToCallDtoConvert,
+                               ContactToContactEntityConvert contactToContactEntityConvert,
+                               CallToCallEntityConvert callToCallEntityConvert) {
         this.contactService = contactService;
         this.callService = callService;
-        this.convertService = conversionService;
+        this.contactToContactDtoConvert = contactToContactDtoConvert;
+        this.callToCallDtoConvert = callToCallDtoConvert;
+        this.contactToContactEntityConvert = contactToContactEntityConvert;
+        this.callToCallEntityConvert = callToCallEntityConvert;
     }
+
 
     @RequestMapping(value = "getAllContacts", method = RequestMethod.GET)
     @ResponseBody
@@ -45,24 +53,31 @@ public class PhoneBookController {
     @RequestMapping(value = "addContact", method = RequestMethod.POST)
     @ResponseBody
     public ContactDto addContact(@RequestBody ContactDto contactDto) {
-        Contact contact = convertService.convertContact(contactDto);
+        Contact contact = contactToContactEntityConvert.toEntity(contactDto);
+        logger.info("ContactDto: " + toString(contactDto) + " is converted to Contact Entity");
 
         contactService.addContact(contact);
         logger.info("Contact (Entity): " + toString(contact) + " is added");
 
-        return convertService.convertContactDto(contact);
+        ContactDto contactDtoConverted = contactToContactDtoConvert.toDto(contact);
+        logger.info("Contact: " + toString(contact) + " is converted to Dto");
+
+        return contactDtoConverted;
     }
 
     @Transactional
     @RequestMapping(value = "deleteContact", method = RequestMethod.POST)
     @ResponseBody
     public List<Contact> deleteContact(@RequestBody ContactDto contactDto) {
-        Contact contact = convertService.convertContact(contactDto);
-        contactService.deleteContact(contact.getId());
+        Contact contact = contactToContactEntityConvert.toEntity(contactDto);
+        logger.info("ContactDto: " + toString(contactDto) + " is converted to Contact Entity");
 
+        contactService.deleteContact(contact.getId());
         logger.info("Contact (Entity): " + toString(contact) + " is removed");
 
-        convertService.convertContactDto(contact);
+        contactToContactDtoConvert.toDto(contact);
+        logger.info("Contact: " + toString(contactDto) + " is converted to Dto");
+
         return contactService.getAllContacts();
     }
 
@@ -77,11 +92,16 @@ public class PhoneBookController {
     @RequestMapping(value = "addCall", method = RequestMethod.POST)
     @ResponseBody
     public CallDto addCall(@RequestBody CallDto callDto) {
-        Call call = convertService.convertCall(callDto);
+        Call call = callToCallEntityConvert.toEntity(callDto);
+        logger.info("CallDto: " + toString(callDto) + " is converted to Call Entity");
+
         callService.addCall(call);
         logger.info("Call (Entity): " + toString(call) + " is added");
 
-        return convertService.convertCallDto(call);
+        CallDto callDtoConverted = callToCallDtoConvert.toDto(call);
+        logger.info("Call: " + toString(callDto) + " is converted to Dto");
+
+        return callDtoConverted;
     }
 
     @RequestMapping(value = "getAllCalls", method = RequestMethod.GET)

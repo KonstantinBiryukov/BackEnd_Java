@@ -1,9 +1,6 @@
 package ru.academits.model;
 
-
 import javax.persistence.*;
-
-import java.util.List;
 
 import static javax.persistence.GenerationType.AUTO;
 
@@ -26,9 +23,6 @@ public class Contact {
 
     @Column(name = "is_removed")
     private boolean isRemoved;
-
-//    @OneToMany(mappedBy = "contacts")
-//    private List<Contact> contacts;
 
     public int getId() {
         return id;

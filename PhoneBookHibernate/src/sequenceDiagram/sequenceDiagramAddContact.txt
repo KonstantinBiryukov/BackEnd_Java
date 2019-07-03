@@ -2,25 +2,13 @@
 
 actor User #red
 actor Browser #black
-control PhoneBookController
-participant ConvertService #yellow
-participant ContactService
-entity ContactDao
-entity GenericDao
+participant Server
 database Database
 
 User -> Browser : click "addContact" button
-Browser -> PhoneBookController : request API "/addContact"
-PhoneBookController -> ConvertService:  method "convertContact" call (from Dto to Entity)
-ConvertService --> PhoneBookController: Entity (Contact) return
-PhoneBookController -> ContactService: method "addContact" call
-ContactService --> PhoneBookController: return ContactValidation boolean
-ContactService -> ContactDao : method "save" call
-ContactDao ->  GenericDao: method "saveOrUpdate" call
-GenericDao -> Database: method "saveOrUpdate" call (save Entity to Database)
+Browser -> Server : request API "/addContact"
+Server -> Database: save Entity to Database
 
-PhoneBookController -> ConvertService: method "convertContactDto" call (from Entity to Dto)
-ConvertService --> PhoneBookController: ContactDto return
-PhoneBookController --> Browser: ContactDto object return
-Browser --> User: fetch data
+Server --> Browser: ContactDto object return
+Browser --> User: show update
 @enduml
