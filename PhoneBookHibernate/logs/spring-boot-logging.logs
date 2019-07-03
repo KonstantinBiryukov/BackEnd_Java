@@ -598,3 +598,50 @@ Caused by: org.hibernate.TypeMismatchException: Provided id of the wrong type fo
 2019-07-03 15:44:50.386  INFO 47607 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 47607 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
 2019-07-03 15:44:50.388 DEBUG 47607 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
 2019-07-03 15:44:50.389  INFO 47607 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 18:12:56.350  INFO 48252 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 48252 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 18:12:56.352 DEBUG 48252 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 18:12:56.353  INFO 48252 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 18:12:58.219  INFO 48252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1830 ms
+2019-07-03 18:13:00.043  INFO 48252 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.977 seconds (JVM running for 4.695)
+2019-07-03 18:13:00.199  INFO 48252 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 18:13:00.209  INFO 48252 --- [RMI TCP Connection(2)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-07-03 18:15:00.782  INFO 48277 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 48277 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 18:15:00.785 DEBUG 48277 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 18:15:00.785  INFO 48277 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 18:15:02.236  INFO 48277 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1416 ms
+2019-07-03 18:15:03.917  INFO 48277 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.482 seconds (JVM running for 4.105)
+2019-07-03 18:15:04.028  INFO 48277 --- [RMI TCP Connection(3)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 18:15:04.038  INFO 48277 --- [RMI TCP Connection(3)-192.168.1.203] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-07-03 18:15:12.768  INFO 48277 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 18:15:14.701  INFO 48277 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@1377c362[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 18:15:14.789  INFO 48277 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@77f98d1d[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 18:15:14.790  INFO 48277 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@77f98d1d[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 18:15:14.810  INFO 48277 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 18:15:15.998  INFO 48277 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@2b803072[id=0,callDate=2019-07-03T11:15:15.988Z,callPhone=4] is converted to Call Entity
+2019-07-03 18:15:16.103  INFO 48277 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@4a7e489[id=2,callDate=2019-07-03T11:15:15.988Z,callPhone=4,contact=ru.academits.model.Contact@2ac03b06] is added
+2019-07-03 18:15:16.104  INFO 48277 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@2b803072[id=0,callDate=2019-07-03T11:15:15.988Z,callPhone=4] is converted to Dto
+2019-07-03 18:15:16.115  INFO 48277 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 18:15:25.912  INFO 48277 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@38ec59bd[id=0,firstName=5,lastName=5,phone=5,isRemoved=false] is converted to Contact Entity
+2019-07-03 18:15:25.948  INFO 48277 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@6008460b[id=3,firstName=5,lastName=5,phone=5,isRemoved=false] is added
+2019-07-03 18:15:25.948  INFO 48277 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@6008460b[id=3,firstName=5,lastName=5,phone=5,isRemoved=false] is converted to Dto
+2019-07-03 18:15:25.957  INFO 48277 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 18:15:27.047  INFO 48277 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@5fa453fa[id=0,callDate=2019-07-03T11:15:27.039Z,callPhone=5] is converted to Call Entity
+2019-07-03 18:15:27.060  INFO 48277 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@7d12f991[id=4,callDate=2019-07-03T11:15:27.039Z,callPhone=5,contact=ru.academits.model.Contact@2dc105f4] is added
+2019-07-03 18:15:27.060  INFO 48277 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@5fa453fa[id=0,callDate=2019-07-03T11:15:27.039Z,callPhone=5] is converted to Dto
+2019-07-03 18:15:27.069  INFO 48277 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-03 18:18:49.381  INFO 48287 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 48287 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-03 18:18:49.383 DEBUG 48287 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-03 18:18:49.383  INFO 48287 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-03 18:18:50.829  INFO 48287 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1413 ms
+2019-07-03 18:18:52.764  INFO 48287 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 3.67 seconds (JVM running for 4.295)
+2019-07-03 18:18:53.021  INFO 48287 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-03 18:18:53.029  INFO 48287 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-07-03 18:18:53.282  INFO 48287 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 18:18:55.541  INFO 48287 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@7c17aa04[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-03 18:18:55.616  INFO 48287 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@3442ab47[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-03 18:18:55.616  INFO 48287 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@3442ab47[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-03 18:18:55.635  INFO 48287 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-03 18:18:56.317  INFO 48287 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@5c27aaa9[id=0,callDate=2019-07-03T11:18:56.308Z,callPhone=4] is converted to Call Entity
+2019-07-03 18:18:56.427  INFO 48287 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@48895aa7[id=2,callDate=2019-07-03T11:18:56.308Z,callPhone=4,contact=ru.academits.model.Contact@2dd4fb1a] is added
+2019-07-03 18:18:56.427  INFO 48287 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@5c27aaa9[id=0,callDate=2019-07-03T11:18:56.308Z,callPhone=4] is converted to Dto
+2019-07-03 18:18:56.439  INFO 48287 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllCalls
