@@ -1,4 +1,4 @@
-package ru.academits.service;
+package ru.academits.converters;
 
 import org.springframework.stereotype.Service;
 import ru.academits.dto.CallDto;

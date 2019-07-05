@@ -73,7 +73,7 @@ java.lang.IndexOutOfBoundsException: Index 1 out-of-bounds for length 1
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248) ~[na:na]
 	at java.base/java.util.Objects.checkIndex(Objects.java:372) ~[na:na]
 	at java.base/java.util.ArrayList.get(ArrayList.java:440) ~[na:na]
-	at ru.academits.service.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:27) ~[classes/:na]
+	at ru.academits.converters.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:27) ~[classes/:na]
 	at ru.academits.controller.PhoneBookController.addCall(PhoneBookController.java:95) ~[classes/:na]
 	at ru.academits.controller.PhoneBookController$$FastClassBySpringCGLIB$$b450c43f.invoke(<generated>) ~[classes/:na]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
@@ -209,7 +209,7 @@ org.springframework.orm.hibernate5.HibernateSystemException: Provided id of the 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
 	at ru.academits.dao.ContactDaoImpl$$EnhancerBySpringCGLIB$$5ec1ff19.findById(<generated>) ~[classes/:na]
-	at ru.academits.service.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:28) ~[classes/:na]
+	at ru.academits.converters.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:28) ~[classes/:na]
 	at ru.academits.controller.PhoneBookController.addCall(PhoneBookController.java:95) ~[classes/:na]
 	at ru.academits.controller.PhoneBookController$$FastClassBySpringCGLIB$$b450c43f.invoke(<generated>) ~[classes/:na]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
@@ -328,7 +328,7 @@ org.springframework.orm.hibernate5.HibernateSystemException: Provided id of the 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
 	at ru.academits.dao.ContactDaoImpl$$EnhancerBySpringCGLIB$$2bef6c9f.findById(<generated>) ~[classes/:na]
-	at ru.academits.service.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:28) ~[classes/:na]
+	at ru.academits.converters.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:28) ~[classes/:na]
 	at ru.academits.controller.PhoneBookController.addCall(PhoneBookController.java:95) ~[classes/:na]
 	at ru.academits.controller.PhoneBookController$$FastClassBySpringCGLIB$$b450c43f.invoke(<generated>) ~[classes/:na]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
@@ -471,7 +471,7 @@ org.springframework.orm.hibernate5.HibernateSystemException: Provided id of the 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.7.RELEASE.jar:5.1.7.RELEASE]
 	at ru.academits.dao.ContactDaoImpl$$EnhancerBySpringCGLIB$$a61b9.findById(<generated>) ~[classes/:na]
-	at ru.academits.service.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:29) ~[classes/:na]
+	at ru.academits.converters.CallToCallEntityConvert.toEntity(CallToCallEntityConvert.java:29) ~[classes/:na]
 	at ru.academits.controller.PhoneBookController.addCall(PhoneBookController.java:95) ~[classes/:na]
 	at ru.academits.controller.PhoneBookController$$FastClassBySpringCGLIB$$b450c43f.invoke(<generated>) ~[classes/:na]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
@@ -645,3 +645,31 @@ Caused by: org.hibernate.TypeMismatchException: Provided id of the wrong type fo
 2019-07-03 18:18:56.427  INFO 48287 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@48895aa7[id=2,callDate=2019-07-03T11:18:56.308Z,callPhone=4,contact=ru.academits.model.Contact@2dd4fb1a] is added
 2019-07-03 18:18:56.427  INFO 48287 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@5c27aaa9[id=0,callDate=2019-07-03T11:18:56.308Z,callPhone=4] is converted to Dto
 2019-07-03 18:18:56.439  INFO 48287 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-05 15:17:01.249  INFO 59333 --- [main] ru.academits.PhonebookSpringApplication  : Starting PhonebookSpringApplication on Konstantins-MBP with PID 59333 (/Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate/target/classes started by konstantinbiriukov in /Users/konstantinbiriukov/IdeaProjects/Back-end_Java/PhoneBookHibernate)
+2019-07-05 15:17:01.252 DEBUG 59333 --- [main] ru.academits.PhonebookSpringApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-07-05 15:17:01.253  INFO 59333 --- [main] ru.academits.PhonebookSpringApplication  : No active profile set, falling back to default profiles: default
+2019-07-05 15:17:03.120  INFO 59333 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1830 ms
+2019-07-05 15:17:04.955  INFO 59333 --- [main] ru.academits.PhonebookSpringApplication  : Started PhonebookSpringApplication in 4.005 seconds (JVM running for 4.619)
+2019-07-05 15:17:11.926  INFO 59333 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-05 15:17:11.935  INFO 59333 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-07-05 15:17:12.459  INFO 59333 --- [http-nio-8080-exec-9] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-05 15:17:15.371  INFO 59333 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : ContactDto: ru.academits.dto.ContactDto@4fc2f098[id=0,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Contact Entity
+2019-07-05 15:17:15.399  INFO 59333 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact (Entity): ru.academits.model.Contact@14d7763e[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is added
+2019-07-05 15:17:15.399  INFO 59333 --- [http-nio-8080-exec-1] r.a.controller.PhoneBookController       : Contact: ru.academits.model.Contact@14d7763e[id=1,firstName=4,lastName=4,phone=4,isRemoved=false] is converted to Dto
+2019-07-05 15:17:15.427  INFO 59333 --- [http-nio-8080-exec-3] r.a.controller.PhoneBookController       : called method getAllContacts
+2019-07-05 15:17:16.321  INFO 59333 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@795f2cc6[id=0,callDate=2019-07-05T08:17:16.309Z,callPhone=4] is converted to Call Entity
+2019-07-05 15:17:16.424  INFO 59333 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@67a560eb[id=2,callDate=2019-07-05T08:17:16.309Z,callPhone=4,contact=ru.academits.model.Contact@643cd3ad] is added
+2019-07-05 15:17:16.424  INFO 59333 --- [http-nio-8080-exec-7] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@795f2cc6[id=0,callDate=2019-07-05T08:17:16.309Z,callPhone=4] is converted to Dto
+2019-07-05 15:17:16.435  INFO 59333 --- [http-nio-8080-exec-4] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-05 15:17:28.304  INFO 59333 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@1dd6853d[id=0,callDate=2019-07-05T08:17:28.295Z,callPhone=4] is converted to Call Entity
+2019-07-05 15:17:28.324  INFO 59333 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@3cd74b6a[id=3,callDate=2019-07-05T08:17:28.295Z,callPhone=4,contact=ru.academits.model.Contact@6d7dd770] is added
+2019-07-05 15:17:28.325  INFO 59333 --- [http-nio-8080-exec-2] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@1dd6853d[id=0,callDate=2019-07-05T08:17:28.295Z,callPhone=4] is converted to Dto
+2019-07-05 15:17:28.335  INFO 59333 --- [http-nio-8080-exec-5] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-05 15:17:28.465  INFO 59333 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@606f0834[id=0,callDate=2019-07-05T08:17:28.457Z,callPhone=4] is converted to Call Entity
+2019-07-05 15:17:28.491  INFO 59333 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@52c544b2[id=4,callDate=2019-07-05T08:17:28.457Z,callPhone=4,contact=ru.academits.model.Contact@40f77b] is added
+2019-07-05 15:17:28.491  INFO 59333 --- [http-nio-8080-exec-6] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@606f0834[id=0,callDate=2019-07-05T08:17:28.457Z,callPhone=4] is converted to Dto
+2019-07-05 15:17:28.504  INFO 59333 --- [http-nio-8080-exec-9] r.a.controller.PhoneBookController       : called method getAllCalls
+2019-07-05 15:17:28.651  INFO 59333 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : CallDto: ru.academits.dto.CallDto@fd6633c[id=0,callDate=2019-07-05T08:17:28.643Z,callPhone=4] is converted to Call Entity
+2019-07-05 15:17:28.664  INFO 59333 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : Call (Entity): ru.academits.model.Call@584ce80a[id=5,callDate=2019-07-05T08:17:28.643Z,callPhone=4,contact=ru.academits.model.Contact@8215424] is added
+2019-07-05 15:17:28.664  INFO 59333 --- [http-nio-8080-exec-8] r.a.controller.PhoneBookController       : Call: ru.academits.dto.CallDto@fd6633c[id=0,callDate=2019-07-05T08:17:28.643Z,callPhone=4] is converted to Dto
+2019-07-05 15:17:28.674  INFO 59333 --- [http-nio-8080-exec-10] r.a.controller.PhoneBookController       : called method getAllCalls
